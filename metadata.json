@@ -1,0 +1,5 @@
+{
+  "name": "Market Basket Analyzer AI",
+  "description": "Upload customer purchase data (CSV) to discover product associations and get AI-powered suggestions for optimal shelf placement. This tool helps retailers understand buying patterns and improve store layout.",
+  "requestFramePermissions": []
+}
