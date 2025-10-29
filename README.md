@@ -1,46 +1,36 @@
-# 🤖 AI-Based Data Prediction and Insight Web Application
+# 🛒 Smart Association Rule Mining System for Retail Insights
 
-An intelligent web application that automatically analyzes uploaded CSV datasets to provide instant predictions, insights, and visual comparisons.  
-It uses AI-powered models to understand data structure, detect relationships, and summarize important findings.
+An intelligent data analysis system designed for shop owners to understand customer purchasing patterns.  
+By analyzing uploaded transaction data, it discovers relationships between products and helps improve sales strategies, product placement, and inventory planning.
 
 ---
 
 ## 🚀 Features
 
-- 📂 **CSV Upload**
-  - Upload any dataset in CSV format.
-  - Automatically read and detect dataset columns and types.
+- 📂 **Upload Customer Buying Details**
+  - Shop owners can upload a CSV file containing customer purchase history.
+  - Each row represents a customer’s buying list.
 
-- 🔍 **Smart Prediction**
-  - Automatically identify suitable prediction models:
-    - **Classification** (for categorical outcomes)
-    - **Regression** (for numerical outcomes)
-    - **Clustering** (for unsupervised pattern detection)
+- 🧠 **Automatic Association Rule Analysis**
+  - The system detects patterns such as:
+    - "80% of customers who buy milk also buy bread"
+    - "Customers who buy butter and jam often purchase biscuits"
+  - Generates clear association rules with support, confidence, and lift indicators.
 
-- 🧠 **Automatic Disclaimer**
-  - Generates clear disclaimer messages about:
-    - Data limitations
-    - Prediction reliability
-    - Dataset completeness or missing values
+- 🛍️ **Shop Layout Suggestions**
+  - Based on analysis, the system suggests how to organize products:
+    - Which products should be placed near each other
+    - Which combinations increase cross-selling opportunities
 
-- 📊 **Data Insights and Comparison**
-  - View correlation between columns.
-  - Compare values across selected attributes.
-  - Identify key influencing factors or variables.
+- 📊 **Pattern Summary**
+  - Visual display of frequent product combinations.
+  - Easy-to-understand charts showing product relationships.
 
-- 📈 **Interactive Visualization**
-  - Display trends, clusters, and regression lines.
-  - Generate summary tables and charts for better understanding.
+- 💬 **Actionable Insights**
+  - Shows which products drive sales when combined.
+  - Provides strategic recommendations for shelf arrangement.
 
-- 📰 **Important Insights Extraction**
-  - Automatically highlights the most meaningful or “newsworthy” data points.
-  - Provides concise summaries of dataset findings.
-
-- 🌐 **Live AI Assistant View**
-  - The web interface shows AI predictions and analysis instantly after CSV upload.
-  - User-friendly and interactive for both beginners and data researchers.
+- 🔄 **Smart Updates**
+  - Shop owners can re-upload data anytime to refresh insights and discover new buying trends.
 
 ---
-
-## 📂 Project Overview
-
